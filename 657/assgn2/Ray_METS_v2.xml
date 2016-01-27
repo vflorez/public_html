@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="METS_display.xslt"?>
+
+<!-- Metadata sources
+1. Full record from Drexel University Hagerty Library OPAC
+	Author: Ray, Erik T.
+	Title: Learning XML [electronic resource] / Erik T. Ray.
+	Imprint: Beijing ; Cambridge, Mass. : O'Reilly, c2003.
+	Edition: 2nd ed.
+	Details
+		Description: xiv, 400 p. : ill. ; 24 cm.
+		Bibliography: Includes bibliographical references and index.
+		Note: Available also in a print edition.
+		Reproduction: Electronic reproduction. Boston, MA : Safari, 2003. Available via World Wide Web.
+		Issued By: Made available through: Safari Books Online, LLC.
+		Access: Restricted by license agreement to Drexel University students, faculty and staff.
+		LC Subject: XML (Document markup language)
+		Genre: Electronic books.
+		Other Author: Safari Tech Books Online
+
+2. Full record from LOC
+	LC control no.	2004268183
+	Type of material	Book
+	Personal name	Ray, Erik T.  » More like this
+	Main title	Learning XML / Erik T. Ray.
+	Edition	2nd ed.
+	Published/Created	Beijing ; Cambridge, Mass. : O'Reilly, c2003.
+	Description	xiv, 400 p. : ill. ; 24 cm.
+	ISBN	0596004206 (pbk.)
+	Notes	Includes bibliographical references and index.
+	Subjects	XML (Document markup language)  » More like this
+	LC classification	QA76.76.H94 R3945 2003
+	Dewey class no.	006.74
+	Links	Publisher description: <http://www.loc.gov/catdir/enhancements/fy0715/2004268183-d.html> 
+
+3. Link to book's page on publisher website: http://shop.oreilly.com/product/9780596004200.do
+-->
+
+<mets:mets ID="m001" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:textMD="info:lc/xmlns/textMD-v3" xmlns:copyrightMD="http://www.cdlib.org/inside/diglib/copyrightMD" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.pages.drexel.edu/~vpf23/657/mods-3-4.xsd info:lc/xmlns/textMD-v3 http://www.loc.gov/standards/textMD/textMD-v3.01a.xsd http://www.cdlib.org/inside/diglib/copyrightMD http://www.cdlib.org/groups/rmg/docs/copyrightMD.xsd" OBJID="info657-901_vpf001" LABEL="Learning XML" TYPE="text">
+	<mets:metsHdr ID="mh001" CREATEDATE="2013-04-17T23:20:26" RECORDSTATUS="draft">
+		<!-- METS header (document talks about itself) -->
+		<mets:agent ID="ag001" ROLE="CREATOR" TYPE="ORGANIZATION">
+			<mets:name>Drexel University</mets:name>
+		</mets:agent>
+		<mets:agent ID="ag002" ROLE="CREATOR" TYPE="INDIVIDUAL">
+			<mets:name>Valerie Florez</mets:name>
+			<mets:note>Metadata record originally created as assignment for INFO657-901 using METS standard.</mets:note>
+		</mets:agent>
+		<mets:agent ID="ag003" ROLE="EDITOR" TYPE="INDIVIDUAL">
+			<mets:name>Valerie Florez</mets:name>
+			<mets:note>Metadata obtained from Drexel University Hagerty Library, Library of Congress, and O'Reilly e-book website.</mets:note>
+		</mets:agent>
+		<mets:altRecordID ID="altRec001" TYPE="LCCN">2004268183</mets:altRecordID>
+		<mets:altRecordID ID="altRec002" TYPE="DREXEL">2115280</mets:altRecordID>
+	</mets:metsHdr>
+	<mets:dmdSec ID="dmd001" ADMID="tech001 rights001">
+		<!-- Descriptive metadata (MODS, etc.) -->
+
+		<!-- Option for including a reference to the MODS document using <mdRef>
+		<mets:mdRef ID="dmdr001" MDTYPE="MODS" MDTYPEVERSION="3.4" MIMETYPE="text/xml" LOCTYPE="URL" LABEL="MODS Record" xlink:show="embed" xlink:actuate="onLoad" xlink:href="Ray_MODS_v2.xml"/> -->
+		
+		<!-- Option for including the MODS document using XInclude -->
+		<mets:mdWrap ID="dmdw001" MDTYPE="MODS" MDTYPEVERSION="3.4" MIMETYPE="text/xml" LABEL="MODS Record">
+			<mets:xmlData>
+				<xi:include href="Ray_MODS_v2.xml"/>
+			</mets:xmlData>
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:amdSec ID="amd001">
+		<!-- Administrative metadata (copyright info., etc.) -->
+		<mets:techMD ID="tech001" ADMID="rights001">
+			<mets:mdWrap ID="techw001" MDTYPE="TEXTMD" MDTYPEVERSION="3.0" MIMETYPE="text/xml" LABEL="Technical Details">
+				<mets:xmlData>
+					<textMD:language>eng</textMD:language>
+					<textMD:pageOrder>left-to-right</textMD:pageOrder>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+		<mets:rightsMD ID="rights001" ADMID="tech001">
+			<mets:mdWrap ID="rightsw001" MDTYPE="OTHER" OTHERMDTYPE="COPYRIGHTMD" MIMETYPE="text/xml" LABEL="Copyright Details">
+				<mets:xmlData>
+					<copyrightMD:copyright copyright.status="copyrighted" publication.status="published">
+						<copyrightMD:publication>
+							<copyrightMD:country.publication iso.code="us">United States</copyrightMD:country.publication>
+							<copyrightMD:publisher>O'Reilly</copyrightMD:publisher>
+							<copyrightMD:year.publication year.type="approximate">2003</copyrightMD:year.publication>
+							<copyrightMD:year.copyright year.type="exact">2003</copyrightMD:year.copyright>
+						</copyrightMD:publication>
+						<copyrightMD:rights.holder>
+							<copyrightMD:name>O'Reilly</copyrightMD:name>
+							<copyrightMD:contact>O'Reilly &amp; Associates, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472</copyrightMD:contact>
+						</copyrightMD:rights.holder>
+						<copyrightMD:notice>Copyright &#xA9; 2003, 2001 O'Reilly &amp; Associates, Inc.</copyrightMD:notice>
+						<copyrightMD:services>
+							<copyrightMD:contact>O'Reilly &amp; Associates, Inc., Corporate/Institutional Sales Department: (800) 998-9938 or corporate@oreilly.com</copyrightMD:contact>
+							<copyrightMD:note>O'Reilly &amp; Associates books may be purchased for educational, business, or sales promotional use. Online editions are also available for most titles (http://safari.oreilly.com).</copyrightMD:note>
+						</copyrightMD:services>
+					</copyrightMD:copyright>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:rightsMD>
+	</mets:amdSec>
+	<mets:fileSec ID="fs001">
+		<!-- File section (names and locations of files) -->
+		<mets:fileGrp ID="fg001" ADMID="tech001 rights001" USE="original">
+			<mets:file ID="f001" MIMETYPE="text/html" ADMID="tech001 rights001" DMDID="dmd001" USE="text/reference">
+				<mets:FLocat LOCTYPE="URL" xlink:title="Primary Display" xlink:href="http://proquestcombo.safaribooksonline.com.ezproxy2.library.drexel.edu/0596004206"/>
+			</mets:file>
+			<mets:file ID="f003" MIMETYPE="text/html" ADMID="tech001 rights001" DMDID="dmd001" USE="text/reference">
+				<mets:FLocat LOCTYPE="URL" xlink:title="Table of Contents" xlink:href="http://shop.oreilly.com/product/9780596004200.do#tab_02_0_content"/>
+			</mets:file>
+		</mets:fileGrp>
+		<mets:fileGrp ID="fg002" ADMID="tech001 rights001" USE="preview">
+			<mets:file ID="f002" MIMETYPE="image/jpeg" ADMID="tech001 rights001" DMDID="dmd001" USE="thumbnail">
+				<mets:FLocat LOCTYPE="URL" xlink:title="Front Cover" xlink:href="http://akamaicovers.oreilly.com/images/9780596004200/lrg.jpg"/>
+			</mets:file>
+		</mets:fileGrp>
+	</mets:fileSec>
+	<mets:structMap ID="sm001" TYPE="physical">
+		<!-- Structural map (relationships of the parts) -->
+		<mets:div ID="sd001" TYPE="book" ADMID="tech001 rights001" DMDID="dmd001" LABEL="Book">
+			<mets:div ID="sd002" TYPE="front cover" ADMID="tech001 rights001" DMDID="dmd001" LABEL="Front Cover">
+				<mets:fptr ID="fp001" FILEID="f002"/>
+			</mets:div>
+			<mets:div ID="sd003" TYPE="section" ADMID="tech001 rights001" DMDID="dmd001" LABEL="Table of Contents">
+				<mets:fptr ID="fp002" FILEID="f003"/>
+			</mets:div>
+			<mets:div ID="sd004" TYPE="section" ADMID="tech001 rights001" DMDID="dmd001" LABEL="Contents">
+				<mets:fptr ID="fp003" FILEID="f001"/>
+			</mets:div>
+		</mets:div>
+	</mets:structMap>
+	<!-- <mets:structLink/> Linking information - not used in this record -->
+	<!-- <mets:behaviorSec/> Binding executables/actions to object - this information is not readily available from Safari Books Online -->
+</mets:mets>

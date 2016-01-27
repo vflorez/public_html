@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../mobileDisplay.xsl"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+    <titleInfo><title>Our bodies, ourselves</title><subTitle>pregnancy and birth</subTitle></titleInfo>
+    <name type="corporate"><namePart>Boston Women's Health Book Collective</namePart></name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">bibliography</genre>
+    <genre>Mobile website/application</genre>
+    <originInfo>
+        <place><placeTerm type="code" authority="marccountry">nyu</placeTerm></place>
+        <place><placeTerm type="text">New York</placeTerm></place>
+        <publisher>Touchstone Book/Simon &amp; Schuster</publisher>
+        <dateIssued>c2008</dateIssued>
+        <dateIssued encoding="marc">2008</dateIssued>
+        <dateIssued encoding="marc">2008</dateIssued>
+        <edition>1st Touchstone trade pbk. ed.</edition>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <language><languageTerm type="code" authority="iso639-2b">eng</languageTerm></language>
+    <physicalDescription>
+        <!-- removed <form authority="marcform">print</form> and added to denote eBook version -->
+        <form authority="marcform">electronic</form>
+        <extent>370 p. : ill. ; 24 cm.</extent>
+        <!-- added to denote eBook version -->
+        <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <tableOfContents>Approaching birth with confidence -- Choosing your health care provider and birth setting -- Preparing for childbirth -- Your developing pregnancy and prenatal care -- Taking care of yourself -- Relationships, sex, and emotional support -- Prenatal testing -- Special concerns during pregnancy -- Childbearing loss -- Labor and birth -- Coping with pain -- Special concerns during labor and birth -- Cesarean births -- Your physical recovery and your newborn -- Feeding your baby -- Life as a new mother -- Advocating for better maternity care -- Advocating for mothers and families.</tableOfContents>
+    <note type="statement of responsibility" altRepGroup="00">the Boston Women's Health Book Collective.</note>
+    <note type="bibliography">Includes bibliographical references (p. [325]-337) and index.</note>
+    <subject authority="lcsh"><topic>Pregnancy</topic><genre>Popular works</genre></subject>
+    <subject authority="lcsh"><topic>Childbirth</topic><genre>Popular works</genre></subject>
+    <classification authority="lcc">RG525 .O97 2008</classification><classification authority="ddc" edition="22">618.2</classification>
+    <location><url displayLabel="Worldcat mobile">http://worldcatmobile.org/?os=&amp;on=&amp;q=9780743274869&amp;idx=kw&amp;sort=relevance</url></location>
+    <location><url displayLabel="Amazon">http://www.amazon.com/Our-Bodies-Ourselves-Pregnancy-ebook/dp/B001665Y4O/</url></location>
+    <location><url displayLabel="Publisher description">http://www.loc.gov/catdir/enhancements/fy0808/2007049498-d.html</url></location>
+    <location><url displayLabel="Sample text" usage="primary display">http://www.loc.gov/catdir/enhancements/fy0826/2007049498-s.html</url></location>
+    <location><url displayLabel="Table of contents only">http://www.loc.gov/catdir/enhancements/fy0826/2007049498-t.html</url></location>
+    <identifier type="isbn">9780743274869 (pbk.)</identifier>
+    <identifier type="isbn">0743274865 (pbk.)</identifier>
+    <identifier type="lccn">2007049498</identifier>
+    <identifier type="oclc">ocn183162455</identifier>
+    <identifier type="oclc">183162455</identifier>
+    <relatedItem><location><url displayLabel="Publisher description">http://www.loc.gov/catdir/enhancements/fy0808/2007049498-d.html</url></location></relatedItem>
+    <recordInfo>
+        <descriptionStandard>aacr</descriptionStandard>
+        <recordContentSource authority="marcorg">DLC</recordContentSource>
+        <recordCreationDate encoding="marc">071205</recordCreationDate>
+        <recordChangeDate encoding="iso8601">20080617083222.0</recordChangeDate>
+        <recordIdentifier>15103715</recordIdentifier>
+        <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl
+				(Revision 1.85 2013/03/07)</recordOrigin>
+    </recordInfo>
+</mods>

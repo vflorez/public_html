@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="METS_display.xslt"?>
+
+<!-- Metadata sources
+1. Full record from Drexel University Hagerty Library OPAC
+	Author: Ray, Erik T.
+	Title: Learning XML [electronic resource] / Erik T. Ray.
+	Imprint: Beijing ; Cambridge, Mass. : O'Reilly, c2003.
+	Edition: 2nd ed.
+	Details
+		Description: xiv, 400 p. : ill. ; 24 cm.
+		Bibliography: Includes bibliographical references and index.
+		Note: Available also in a print edition.
+		Reproduction: Electronic reproduction. Boston, MA : Safari, 2003. Available via World Wide Web.
+		Issued By: Made available through: Safari Books Online, LLC.
+		Access: Restricted by license agreement to Drexel University students, faculty and staff.
+		LC Subject: XML (Document markup language)
+		Genre: Electronic books.
+		Other Author: Safari Tech Books Online
+
+2. Full record from LOC
+	LC control no.	2004268183
+	Type of material	Book
+	Personal name	Ray, Erik T.  » More like this
+	Main title	Learning XML / Erik T. Ray.
+	Edition	2nd ed.
+	Published/Created	Beijing ; Cambridge, Mass. : O'Reilly, c2003.
+	Description	xiv, 400 p. : ill. ; 24 cm.
+	ISBN	0596004206 (pbk.)
+	Notes	Includes bibliographical references and index.
+	Subjects	XML (Document markup language)  » More like this
+	LC classification	QA76.76.H94 R3945 2003
+	Dewey class no.	006.74
+	Links	Publisher description: <http://www.loc.gov/catdir/enhancements/fy0715/2004268183-d.html> 
+
+3. Link to book's page on publisher website: http://shop.oreilly.com/product/9780596004200.do
+-->
+
+<mets:mets ID="m001" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:textMD="info:lc/xmlns/textMD-v3" xmlns:copyrightMD="http://www.cdlib.org/inside/diglib/copyrightMD" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd info:lc/xmlns/textMD-v3 http://www.loc.gov/standards/textMD/textMD-v3.01a.xsd http://www.cdlib.org/inside/diglib/copyrightMD http://www.cdlib.org/groups/rmg/docs/copyrightMD.xsd" OBJID="info657-901_vpf001" LABEL="Learning XML" TYPE="text">
+	<mets:metsHdr ID="mh001" CREATEDATE="2013-04-17T23:20:26" RECORDSTATUS="draft">
+		<!-- METS header (document talks about itself) -->
+		<mets:agent ID="ag001" ROLE="CREATOR" TYPE="ORGANIZATION">
+			<mets:name>Drexel University</mets:name>
+		</mets:agent>
+		<mets:agent ID="ag002" ROLE="CREATOR" TYPE="INDIVIDUAL">
+			<mets:name>Valerie Florez</mets:name>
+			<mets:note>Metadata record originally created as assignment for INFO657-901 using METS standard.</mets:note>
+		</mets:agent>
+		<mets:agent ID="ag003" ROLE="EDITOR" TYPE="INDIVIDUAL">
+			<mets:name>Valerie Florez</mets:name>
+			<mets:note>Metadata obtained from Drexel University Hagerty Library, Library of Congress, and O'Reilly e-book website.</mets:note>
+		</mets:agent>
+		<mets:altRecordID ID="altRec001" TYPE="LCCN">2004268183</mets:altRecordID>
+		<mets:altRecordID ID="altRec002" TYPE="DREXEL">2115280</mets:altRecordID>
+	</mets:metsHdr>
+	<mets:dmdSec ID="dmd001" ADMID="tech001 rights001">
+		<!-- Descriptive metadata (MODS, etc.) -->
+		<mets:mdWrap ID="dmdw001" MDTYPE="MODS" MDTYPEVERSION="3.4" MIMETYPE="text/xml" LABEL="MODS Record">
+			<mets:xmlData>
+				<mods:modsCollection>
+					<mods:mods version="3.4">
+						<mods:titleInfo>
+							<mods:title>Learning XML</mods:title>
+							<mods:subTitle>creating self-describing data</mods:subTitle> <!-- Based on book's website (http://shop.oreilly.com/product/9780596004200.do) -->
+						</mods:titleInfo>
+						<mods:name type="personal" usage="primary">
+							<mods:namePart type="family">Ray</mods:namePart>
+							<mods:namePart type="given">Erik T.</mods:namePart>
+							<mods:displayForm>Erik T. Ray</mods:displayForm>
+							<mods:role>
+								<mods:roleTerm type="text" authority="marcrelator">author</mods:roleTerm>
+								<mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+							</mods:role>
+						</mods:name>
+						<mods:name type="corporate">
+							<mods:namePart>Safari Tech Books Online</mods:namePart>
+							<mods:displayForm>Safari Tech Books Online</mods:displayForm>
+							<mods:role>
+								<mods:roleTerm type="text" authority="marcrelator">author</mods:roleTerm>
+								<mods:roleTerm type="code" authority="marcrelator">aut</mods:roleTerm>
+							</mods:role>
+						</mods:name>
+						<mods:typeOfResource>text</mods:typeOfResource>
+						<mods:genre>electronic books</mods:genre>
+						<mods:originInfo>
+							<!-- Information about the origin of the resource, including place of origin or publication, publisher/originator, and dates associated with the resource. -->
+								<!-- Information about an institution responsible for digitizing and delivering online a previously published resource should be included in <note>, rather than <originInfo><publisher> -->
+							<mods:place>
+								<mods:placeTerm type="text">Beijing</mods:placeTerm>
+							</mods:place>
+							<mods:place>
+								<mods:placeTerm type="text">Cambridge, Mass.</mods:placeTerm>
+								<mods:placeTerm type="code" authority="marccountry" authorityURI="http://www.loc.gov/marc/countries/countries_name.html">mau</mods:placeTerm>
+							</mods:place>
+							<mods:publisher>O'Reilly</mods:publisher>
+							<mods:copyrightDate encoding="w3cdtf" keyDate="yes">2003</mods:copyrightDate>
+							<mods:edition>2nd ed.</mods:edition>
+							<mods:issuance>monographic</mods:issuance>
+						</mods:originInfo>
+						<mods:language>
+							<!-- Present on the book's website (http://shop.oreilly.com/product/9780596004200.do) -->
+							<mods:languageTerm type="text">English</mods:languageTerm>
+							<mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+						</mods:language>
+						<mods:physicalDescription>
+							<!-- Include but be careful not to overspecify: It is usually not necessary to include a full <physicalDescription> for every version of a resource known to exist; choose carefully which versions and elements are important. -->
+							<mods:form authority="marcform">electronic</mods:form>
+							<mods:extent>xiv, 400 p. : ill. ; 24 cm.</mods:extent>
+							<mods:internetMediaType>text/html</mods:internetMediaType>
+							<mods:digitalOrigin>born digital</mods:digitalOrigin>
+						</mods:physicalDescription>
+						<mods:abstract displayLabel="Description" xlink:href="http://shop.oreilly.com/product/9780596004200.do#tab_01_0_content">This second edition of the bestselling Learning XML provides web developers with a concise but grounded understanding of XML (the Extensible Markup Language) and its potential-- not just a whirlwind tour of XML. The author explains the important and relevant XML technologies and their capabilities clearly and succinctly with plenty of real-life projects and useful examples. He outlines the elements of markup--demystifying concepts such as attributes, entities, and namespaces--and provides enough depth and examples to get started. Learning XML is a reliable source for anyone who needs to know XML, but doesn't want to waste time wading through hundreds of web sites or 800 pages of bloated text. For writers producing XML documents, this book clarifies files and the process of creating them with the appropriate structure and format. Designers will learn what parts of XML are most helpful to their team and will get started on creating Document Type Definitions. For programmers, the book makes syntax and structures clear. Learning XML also discusses the stylesheets needed for viewing documents in the next generation of browsers, databases, and other devices. Learning XML illustrates the core XML concepts and language syntax, in addition to important related tools such as the CSS and XSL styling languages and the XLink and XPointer specifications for creating rich link structures. It includes information about three schema languages for validation: W3C Schema, Schematron, and RELAX-NG, which are gaining widespread support from people who need to validate documents but aren't satisfied with DTDs. Also new in this edition is a chapter on XSL-FO, a powerful formatting language for XML. If you need to wade through the acronym soup of XML and start to really use this powerful tool, Learning XML, will give you the roadmap you need.
+						</mods:abstract>			
+						<mods:tableOfContents xlink:href="http://shop.oreilly.com/product/9780596004200.do#tab_02_0_content"/>
+						<mods:note type="bibliography">Includes bibliographical references and index.</mods:note>		
+						<mods:note type="additional physical form">Available also in a print edition.</mods:note>
+						<mods:note type="reproduction">Electronic reproduction. Boston, MA : Safari, 2003. Available via World Wide Web.</mods:note>				
+						<mods:note displayLabel="Issued By:">Made available through: Safari Books Online, LLC.</mods:note>
+						<mods:subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" valueURI="http://id.loc.gov/authorities/subjects/sh97007825">
+							<mods:topic>XML (Document markup language)</mods:topic>
+						</mods:subject>
+						<mods:classification authority="lcc">QA76.76.H94 R3945 2003</mods:classification>
+						<mods:classification authority="ddc">006.74</mods:classification>
+						<mods:relatedItem type="otherFormat">
+							<mods:originInfo>
+								<mods:copyrightDate encoding="w3cdtf" keyDate="yes">2001</mods:copyrightDate>
+								<mods:edition>1st ed.</mods:edition>
+							</mods:originInfo>
+							<mods:physicalDescription>
+								<mods:form authority="marcform">print</mods:form>
+							</mods:physicalDescription>
+							<mods:identifier type="lcc">QA76.76.H94 R394 2001</mods:identifier>
+							<mods:identifier type="isbn">0596000464</mods:identifier>
+						</mods:relatedItem>
+						<mods:relatedItem type="constituent" displayLabel="Front Cover" xlink:href="http://akamaicovers.oreilly.com/images/9780596004200/lrg.jpg"/>
+						<mods:identifier type="lccn">##2004268183</mods:identifier>
+						<mods:identifier type="isbn">0596004206</mods:identifier>
+						<mods:location>
+							<mods:url usage="primary display" access="object in context">http://proquestcombo.safaribooksonline.com.ezproxy2.library.drexel.edu/0596004206</mods:url>
+						</mods:location>
+						<mods:location>
+							<mods:url displayLabel="Publisher Description">http://www.loc.gov/catdir/enhancements/fy0715/2004268183-d.html</mods:url>
+						</mods:location>
+						<mods:accessCondition type="restriction on access">Restricted by license agreement to Drexel University students, faculty and staff.</mods:accessCondition>
+						<mods:recordInfo>
+							<mods:recordCreationDate encoding="w3cdtf">2013-04-18</mods:recordCreationDate>
+							<mods:recordContentSource>Drexel University</mods:recordContentSource>
+							<mods:recordOrigin>human prepared</mods:recordOrigin>
+							<mods:languageOfCataloging>
+								<mods:languageTerm authority= "iso639-2b">eng</mods:languageTerm>
+							</mods:languageOfCataloging>
+							<mods:recordOrigin>Metadata originally created as assignment for INFO657-901 using MODS standard.</mods:recordOrigin>
+						</mods:recordInfo>
+					</mods:mods>
+				</mods:modsCollection>
+			</mets:xmlData>		
+		</mets:mdWrap>
+	</mets:dmdSec>
+	<mets:amdSec ID="amd001">
+		<!-- Administrative metadata (copyright info., etc.) -->
+		<mets:techMD ID="tech001" ADMID="rights001">
+			<mets:mdWrap ID="techw001" MDTYPE="TEXTMD" MDTYPEVERSION="3.0" MIMETYPE="text/xml" LABEL="Technical Details">
+				<mets:xmlData>
+					<textMD:language>eng</textMD:language>
+					<textMD:pageOrder>left-to-right</textMD:pageOrder>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:techMD>
+		<mets:rightsMD ID="rights001" ADMID="tech001">
+			<mets:mdWrap ID="rightsw001" MDTYPE="OTHER" OTHERMDTYPE="COPYRIGHTMD" MIMETYPE="text/xml" LABEL="Copyright Details">
+				<mets:xmlData>
+					<copyrightMD:copyright copyright.status="copyrighted" publication.status="published">
+						<copyrightMD:publication>
+							<copyrightMD:country.publication iso.code="us">United States</copyrightMD:country.publication>
+							<copyrightMD:publisher>O'Reilly</copyrightMD:publisher>
+							<copyrightMD:year.publication year.type="approximate">2003</copyrightMD:year.publication>
+							<copyrightMD:year.copyright year.type="exact">2003</copyrightMD:year.copyright>
+						</copyrightMD:publication>
+						<copyrightMD:rights.holder>
+							<copyrightMD:name>O'Reilly</copyrightMD:name>
+							<copyrightMD:contact>O'Reilly &amp; Associates, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472</copyrightMD:contact>
+						</copyrightMD:rights.holder>
+						<copyrightMD:notice>Copyright &#xA9; 2003, 2001 O'Reilly &amp; Associates, Inc.</copyrightMD:notice>
+						<copyrightMD:services>
+							<copyrightMD:contact>O'Reilly &amp; Associates, Inc., Corporate/Institutional Sales Department: (800) 998-9938 or corporate@oreilly.com</copyrightMD:contact>
+							<copyrightMD:note>O'Reilly &amp; Associates books may be purchased for educational, business, or sales promotional use. Online editions are also available for most titles (http://safari.oreilly.com).</copyrightMD:note>
+						</copyrightMD:services>
+					</copyrightMD:copyright>
+				</mets:xmlData>
+			</mets:mdWrap>
+		</mets:rightsMD>
+	</mets:amdSec>
+	<mets:fileSec ID="fs001">
+		<!-- File section (names and locations of files) -->
+		<mets:fileGrp ID="fg001" ADMID="tech001 rights001" USE="original">
+			<mets:file ID="f001" MIMETYPE="text/html" ADMID="tech001 rights001" DMDID="dmd001" USE="text/reference">
+				<mets:FLocat LOCTYPE="URL" xlink:title="Primary Display" xlink:href="http://proquestcombo.safaribooksonline.com.ezproxy2.library.drexel.edu/0596004206"/>
+			</mets:file>
+			<mets:file ID="f003" MIMETYPE="text/html" ADMID="tech001 rights001" DMDID="dmd001" USE="text/reference">
+				<mets:FLocat LOCTYPE="URL" xlink:title="Table of Contents" xlink:href="http://shop.oreilly.com/product/9780596004200.do#tab_02_0_content"/>
+			</mets:file>
+		</mets:fileGrp>
+		<mets:fileGrp ID="fg002" ADMID="tech001 rights001" USE="preview">
+			<mets:file ID="f002" MIMETYPE="image/jpeg" ADMID="tech001 rights001" DMDID="dmd001" USE="thumbnail">
+				<mets:FLocat LOCTYPE="URL" xlink:title="Front Cover" xlink:href="http://akamaicovers.oreilly.com/images/9780596004200/lrg.jpg"/>
+			</mets:file>
+		</mets:fileGrp>
+	</mets:fileSec>
+	<mets:structMap ID="sm001" TYPE="physical">
+		<!-- Structural map (relationships of the parts) -->
+		<mets:div ID="sd001" TYPE="book" ADMID="tech001 rights001" DMDID="dmd001" LABEL="Book">
+			<mets:div ID="sd002" TYPE="front cover" ADMID="tech001 rights001" DMDID="dmd001" LABEL="Front Cover">
+				<mets:fptr ID="fp001" FILEID="f002"/>
+			</mets:div>
+			<mets:div ID="sd003" TYPE="section" ADMID="tech001 rights001" DMDID="dmd001" LABEL="Table of Contents">
+				<mets:fptr ID="fp002" FILEID="f003"/>
+			</mets:div>
+			<mets:div ID="sd004" TYPE="section" ADMID="tech001 rights001" DMDID="dmd001" LABEL="Contents">
+				<mets:fptr ID="fp003" FILEID="f001"/>
+			</mets:div>
+		</mets:div>
+	</mets:structMap>
+	<!-- <mets:structLink/> Linking information - not used in this record -->
+	<!-- <mets:behaviorSec/> Binding executables/actions to object - this information is not readily available from Safari Books Online -->
+</mets:mets>

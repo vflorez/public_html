@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="MODS_display.xslt"?>
+
+<!-- Metadata sources
+1. Full record from Drexel University Hagerty Library OPAC
+	Author: Ray, Erik T.
+	Title: Learning XML [electronic resource] / Erik T. Ray.
+	Imprint: Beijing ; Cambridge, Mass. : O'Reilly, c2003.
+	Edition: 2nd ed.
+	Details
+		Description: xiv, 400 p. : ill. ; 24 cm.
+		Bibliography: Includes bibliographical references and index.
+		Note: Available also in a print edition.
+		Reproduction: Electronic reproduction. Boston, MA : Safari, 2003. Available via World Wide Web.
+		Issued By: Made available through: Safari Books Online, LLC.
+		Access: Restricted by license agreement to Drexel University students, faculty and staff.
+		LC Subject: XML (Document markup language)
+		Genre: Electronic books.
+		Other Author: Safari Tech Books Online
+
+2. Full record from LOC
+	LC control no.	2004268183
+	Type of material	Book
+	Personal name	Ray, Erik T.  » More like this
+	Main title	Learning XML / Erik T. Ray.
+	Edition	2nd ed.
+	Published/Created	Beijing ; Cambridge, Mass. : O'Reilly, c2003.
+	Description	xiv, 400 p. : ill. ; 24 cm.
+	ISBN	0596004206 (pbk.)
+	Notes	Includes bibliographical references and index.
+	Subjects	XML (Document markup language)  » More like this
+	LC classification	QA76.76.H94 R3945 2003
+	Dewey class no.	006.74
+	Links	Publisher description: <http://www.loc.gov/catdir/enhancements/fy0715/2004268183-d.html> 
+
+3. Link to book's page on publisher website: http://shop.oreilly.com/product/9780596004200.do
+-->
+
+<!-- top level MODS elements not used
+		<xs:element ref="extension"/> - "elements that are local to the creator of the data. In addition, it may be used to extend MODS for various purposes when another XML schema may handle the type of information. Depending on the nature of the added information, <extension> may be a container element."
+		<xs:element ref="part"/> - not applicable for this record
+		<xs:element ref="targetAudience"/> - not present in this record
+-->
+
+<modsCollection xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3"
+  xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+	<mods version="3.4">
+		<titleInfo>
+			<title>Learning XML</title>
+			<subTitle>creating self-describing data</subTitle> <!-- Based on book's website (http://shop.oreilly.com/product/9780596004200.do) -->
+		</titleInfo>
+		<name type="personal" usage="primary">
+			<namePart type="family">Ray</namePart>
+			<namePart type="given">Erik T.</namePart>
+			<displayForm>Erik T. Ray</displayForm>
+			<role>
+				<roleTerm type="text" authority="marcrelator">author</roleTerm>
+				<roleTerm type="code" authority="marcrelator">aut</roleTerm>
+			</role>
+		</name>
+		<name type="corporate">
+			<namePart>Safari Tech Books Online</namePart>
+			<displayForm>Safari Tech Books Online</displayForm>
+			<role>
+				<roleTerm type="text" authority="marcrelator">author</roleTerm>
+				<roleTerm type="code" authority="marcrelator">aut</roleTerm>
+			</role>
+		</name>
+		<typeOfResource>text</typeOfResource>
+		<genre>electronic books</genre>
+		<originInfo>
+			<!-- Information about the origin of the resource, including place of origin or publication, publisher/originator, and dates associated with the resource. -->
+				<!-- Information about an institution responsible for digitizing and delivering online a previously published resource should be included in <note>, rather than <originInfo><publisher> -->
+			<place>
+				<placeTerm type="text">Beijing</placeTerm>
+			</place>
+			<place>
+				<placeTerm type="text">Cambridge, Mass.</placeTerm>
+				<placeTerm type="code" authority="marccountry" authorityURI="http://www.loc.gov/marc/countries/countries_name.html">mau</placeTerm>
+			</place>
+			<publisher>O'Reilly</publisher>
+			<copyrightDate encoding="w3cdtf" keyDate="yes">2003</copyrightDate>
+			<edition>2nd ed.</edition>
+			<issuance>monographic</issuance>
+		</originInfo>
+		<language>
+			<!-- Present on the book's website (http://shop.oreilly.com/product/9780596004200.do) -->
+			<languageTerm type="text">English</languageTerm>
+			<languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+		</language>
+		<physicalDescription>
+			<!-- Include but be careful not to overspecify: It is usually not necessary to include a full <physicalDescription> for every version of a resource known to exist; choose carefully which versions and elements are important. -->
+			<form authority="marcform">electronic</form>
+			<extent>xiv, 400 p. : ill. ; 24 cm.</extent>
+			<internetMediaType>text/html</internetMediaType>
+			<digitalOrigin>born digital</digitalOrigin>
+		</physicalDescription>
+		<abstract displayLabel="Description" xlink:href="http://shop.oreilly.com/product/9780596004200.do#tab_01_0_content">This second edition of the bestselling Learning XML provides web developers with a concise but grounded understanding of XML (the Extensible Markup Language) and its potential-- not just a whirlwind tour of XML. The author explains the important and relevant XML technologies and their capabilities clearly and succinctly with plenty of real-life projects and useful examples. He outlines the elements of markup--demystifying concepts such as attributes, entities, and namespaces--and provides enough depth and examples to get started. Learning XML is a reliable source for anyone who needs to know XML, but doesn't want to waste time wading through hundreds of web sites or 800 pages of bloated text. For writers producing XML documents, this book clarifies files and the process of creating them with the appropriate structure and format. Designers will learn what parts of XML are most helpful to their team and will get started on creating Document Type Definitions. For programmers, the book makes syntax and structures clear. Learning XML also discusses the stylesheets needed for viewing documents in the next generation of browsers, databases, and other devices. Learning XML illustrates the core XML concepts and language syntax, in addition to important related tools such as the CSS and XSL styling languages and the XLink and XPointer specifications for creating rich link structures. It includes information about three schema languages for validation: W3C Schema, Schematron, and RELAX-NG, which are gaining widespread support from people who need to validate documents but aren't satisfied with DTDs. Also new in this edition is a chapter on XSL-FO, a powerful formatting language for XML. If you need to wade through the acronym soup of XML and start to really use this powerful tool, Learning XML, will give you the roadmap you need.
+		</abstract>
+		<tableOfContents xlink:href="http://shop.oreilly.com/product/9780596004200.do#tab_02_0_content"/>
+		<note type="bibliography">Includes bibliographical references and index.</note>		
+		<note type="additional physical form">Available also in a print edition.</note>
+		<note type="reproduction">Electronic reproduction. Boston, MA : Safari, 2003. Available via World Wide Web.</note>				
+		<note displayLabel="Issued By:">Made available through: Safari Books Online, LLC.</note>
+		<subject authority="lcsh" authorityURI="http://id.loc.gov/authorities/subjects.html" valueURI="http://id.loc.gov/authorities/subjects/sh97007825">
+			<topic>XML (Document markup language)</topic>
+		</subject>
+		<classification authority="lcc">QA76.76.H94 R3945 2003</classification>
+		<classification authority="ddc">006.74</classification>
+		<relatedItem type="otherFormat">
+			<originInfo>
+				<copyrightDate encoding="w3cdtf" keyDate="yes">2001</copyrightDate>
+				<edition>1st ed.</edition>
+			</originInfo>
+			<physicalDescription>
+				<form authority="marcform">print</form>
+			</physicalDescription>
+			<identifier type="lcc">QA76.76.H94 R394 2001</identifier>
+			<identifier type="isbn">0596000464</identifier>
+		</relatedItem>
+		<relatedItem type="constituent" displayLabel="Front Cover" xlink:href="http://akamaicovers.oreilly.com/images/9780596004200/lrg.jpg"/>
+		<identifier type="lccn">##2004268183</identifier>
+		<identifier type="isbn">0596004206</identifier>
+		<location>
+			<url usage="primary display" access="object in context">http://proquestcombo.safaribooksonline.com.ezproxy2.library.drexel.edu/0596004206</url>
+		</location>
+		<location>
+			<url displayLabel="Publisher Description">http://www.loc.gov/catdir/enhancements/fy0715/2004268183-d.html</url>
+		</location>
+		<accessCondition type="restriction on access">Restricted by license agreement to Drexel University students, faculty and staff.</accessCondition>
+		<recordInfo>
+			<recordCreationDate encoding="w3cdtf">2013-04-18</recordCreationDate>
+			<recordContentSource>Drexel University</recordContentSource>
+			<recordOrigin>human prepared</recordOrigin>
+			<languageOfCataloging>
+				<languageTerm authority= "iso639-2b">eng</languageTerm>
+			</languageOfCataloging>
+			<recordOrigin>Metadata originally created as assignment for INFO657-901 using MODS standard.</recordOrigin>
+		</recordInfo>
+	</mods>
+</modsCollection>

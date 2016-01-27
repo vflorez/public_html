@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../mobileDisplay.xsl"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+    <titleInfo>
+        <title>Welkom bij Centrum voor Jeugd en Gezin Rijnmond</title>
+    </titleInfo>
+    <name type="corporate">
+        <namePart>Centrum voor Jeugd en Gezin Rijnmond</namePart>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>Website</genre>
+    <originInfo>
+        <dateCaptured encoding="iso8601">20130601</dateCaptured>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b">dut</languageTerm>
+    </language>
+    <physicalDescription>
+        <internetMediaType>text/html</internetMediaType>
+    </physicalDescription>
+    <abstract>Op het Centrum voor Jeugd en Gezin zijn alle kinderen, ouders, jongeren en professionals welkom met hun vragen over gezondheid, opvoeden en opgroeien. </abstract>
+    <subject>
+        <topic>Child health services</topic>
+        <geographic>Rotterdam</geographic>
+    </subject>
+    <subject>
+        <topic>Goverment</topic>
+        <geographic>Nederlands</geographic>
+    </subject>
+    <subject>
+        <topic>Centrum voor Jeugd en Gezin</topic>
+        <geographic>Rijnmond</geographic>
+    </subject>
+    <location>
+        <url displayLabel="Active site (if available)">http://www.cjgrijnmond.nl/Paginas/home.aspx</url>
+    </location>
+</mods>

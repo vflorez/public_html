@@ -1,0 +1,12 @@
+DL_System {display:block; font-size:large;padding:40px; color:Maroon;}
+identifier {display:block; color: blue; text-align:center}
+setSpec{display:block; color: black; text-align:center}
+metadata {display:block; width:90%; border:thin solid Teal;padding:20px;}
+title {dislplay:block;background:Navy;color:Yellow; text-align:center;}
+creator { display:block;font-size:medium}
+subject { display:block; color:Blue;}
+description{display:block;}
+rights {display:none; color:black}
+record-creator {display:block; color:Blue; font:small}
+record-creation-date {display:block; color:Blue; font:small}
+record-url {display:block;}

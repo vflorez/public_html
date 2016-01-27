@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../mobileDisplay.xsl"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+    <titleInfo>
+        <title>Equally Shared Parenting  |  Mr. Money Mustache</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart>Mr. Money Mustache</namePart>
+    </name>
+    <genre>Website</genre>
+    <typeOfResource>text</typeOfResource>
+    <originInfo>
+        <dateCaptured encoding="iso8601">20130601</dateCaptured>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b">eng</languageTerm>
+    </language>
+    <physicalDescription>
+        <internetMediaType>text/html</internetMediaType>
+    </physicalDescription>
+    <abstract>Did you know that the MMM family was actually somewhat famous, in an anonymous and obscure way, before Mr. Money Mustache even started typing this blog?
+        It all started back in 2008, when Mrs. M. was surfing around on her computer and came across this website about Equally Shared Parenting (ESP for short). If you've never heard of the concept, it's an old-yet-new idea where two parents raise their children together, spending an equal amount of time with them and splitting as many roles as possible evenly between both parents. </abstract>
+    <subject>
+        <topic>Parenting</topic>
+    </subject>
+    <subject>
+        <topic>Retirement</topic>
+    </subject>
+    <location>
+        <url displayLabel="Active site (if available)">http://www.mrmoneymustache.com/2011/06/15/equally-shared-parenting/</url>
+    </location>
+</mods>

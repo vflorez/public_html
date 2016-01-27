@@ -1,0 +1,104 @@
+		body 
+{
+			background-color: #FFFFCC;
+			text-align: center;
+			overflow: auto;
+			font-family: "Trebuchet MS", Trebuchet, Helvetica, sans-serif
+		
+}
+
+		a:link {
+			color: #000000
+		}
+
+		a:visited {
+			color: #777788
+		}
+		
+		a:hover {
+			color: #4444CC
+		}
+
+		p {
+			margin-bottom: 1.2em
+		}
+
+
+
+
+		h1 {
+			font-size: 1.5em
+		}
+		
+		caption {
+			font-size: 0.8em
+		}
+
+		#wrapper {
+			border: 0px solid;
+			border-collapse: collapse;
+			width: 95%;
+			margin-left: auto;
+			margin-right: auto
+		}
+
+		table 
+{
+			
+margin: auto;
+
+			width: 95%;
+			font-weight: normal;
+			
+text-align: center
+		
+}
+
+		#page_header {
+			background-image: url('images/eport_header.jpg');
+			background-color: #000000;
+			margin-left: auto;
+			margin-right: auto;
+			width: 75%;
+			padding-right: 10px
+
+/* Future option for border around part of the main content
+			border-color: #003399;
+			border-style: solid;
+			border-width: 10px 0px 0px 10px
+*/
+
+		}
+
+		#right_side_wrapper {
+			vertical-align: top;
+			padding-top: 10%
+		}
+
+		#inner_body {
+			width: 75%;
+			padding-left: 10px;
+
+/* Future option for border around part of the main content
+			border-color: #003399;
+			border-style: solid;
+			border-width: 0px 0px 10px 10px
+*/
+
+		}
+
+		#footer_table td {
+			white-space: nowrap
+		}
+
+		#footer {
+			font-size: 0.85em
+
+/* Other footer approaches
+			position: absolute;
+			bottom: 0;
+			width: 70%;
+			height: 3em
+*/
+
+		}

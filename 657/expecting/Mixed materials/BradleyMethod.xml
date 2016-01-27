@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../mobileDisplay.xsl"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+    <titleInfo>
+        <title>The Bradley Method&amp;#174; of Natural Childbirth</title>
+    </titleInfo>
+    <name type="corporate">
+        <namePart>American Academy of Husband-Coached Childbirth&amp;#153;</namePart>
+    </name>
+    <typeOfResource>mixed material</typeOfResource>
+    <genre>Instruction</genre>
+    <genre>Website</genre>
+    <originInfo>
+        <dateCaptured encoding="iso8601">20130602</dateCaptured>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b">eng</languageTerm>
+    </language>
+    <physicalDescription>
+        <form>instruction</form>
+        <internetMediaType>text/html</internetMediaType>
+        <internetMediaType>application/x-shockwave-flash</internetMediaType>
+    </physicalDescription>
+    <abstract>Wanting the BEST start for your baby? The Bradley Method&amp;#174; series is designed for small classes with lots of individual attention. The standard length is 12 weeks covering 12 units of instruction. The Student Workbook is included with classes. It has over 130 pages with over 75 pictures and illustrations. </abstract>
+    <subject>
+        <topic>Classroom environment</topic>
+    </subject>
+    <subject>
+        <topic>Natural childbirth</topic>
+    </subject>
+    <subject>
+        <!-- Combined topic and genre because MODSPlugin cannot yet parse them out -->
+        <topic>Pregnancy--Nutritional aspects</topic>
+    </subject>
+    <subject>
+        <!-- Combined topic and genre because MODSPlugin cannot yet parse them out -->
+        <topic>Pregnancy--Exercise</topic>
+    </subject>
+    <location>
+        <url displayLabel="Active site (if available)">http://www.bradleybirth.com/</url>
+    </location>
+</mods>

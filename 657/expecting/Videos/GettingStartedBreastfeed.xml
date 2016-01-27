@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../mobileDisplay.xsl"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+    <titleInfo>
+        <title>Getted Started with Breastfeeding - Newborn Nursery at LPCH - Stanford University School of Medicine</title>
+    </titleInfo>
+    <name type="corporate">
+        <namePart>Stanford School of Medicine</namePart>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <typeOfResource>moving image</typeOfResource>
+    <genre>Website</genre>
+    <genre>Video</genre>
+    <originInfo>
+        <dateCaptured encoding="iso8601">20130601</dateCaptured>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b">eng</languageTerm>
+    </language>
+    <physicalDescription>
+        <internetMediaType>text/html</internetMediaType>
+        <internetMediaType>application/x-shockwave-flash</internetMediaType>
+    </physicalDescription>
+    <abstract>Physicians and other health professionals who care for infants frequently feel the pressure of time when faced with a mother who is having difficulty with breastfeeding. Many breastfeeding problems, though, can be avoided or improved with some simple tips and hands-on help with latching on. In this video, Dr. Jane Morton demonstrates how effective assistance can be given in just 15 minutes. </abstract>
+    <subject>
+        <topic>Instructional films</topic>
+    </subject>
+    <subject>
+        <topic>Breastfeeding</topic>
+    </subject>
+    <location>
+        <url displayLabel="Active site (if available)">http://newborns.stanford.edu/Breastfeeding/FifteenMinuteHelper.html</url>
+    </location>
+</mods>

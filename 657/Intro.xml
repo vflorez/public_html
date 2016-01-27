@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Intro.xslt" ?>
+	<info657 year="2013" term="Spring">
+		<courseTitle>Digital Library Technology</courseTitle>
+		<student>
+			<name>
+				<firstName>Valerie</firstName>
+				<lastName>Florez</lastName>
+			</name>
+			<location>
+				<city>Rotterdam</city>
+				<state></state>
+				<country>The Netherlands</country>
+			</location>
+			<self-introduction>
+				My name is Valerie (or Val, either is perfectly fine).  I am just over 2/3 through my MLIS coursework at Drexel; my focus is on Digital Libraries.  I love learning news skills, so I am really excited about this class.  My formal education and previous work experience are in Chemical Engineering, with a stint at a green-tech startup after we began moving around for my husband's work.
+				As for my experience in libraries and digital libraries, I used to volunteer at the library for the Smithsonian American Art Museum and National Portrait Gallery when I lived in Washington, DC.  I acted as their Exchange Coordinator, and I really enjoyed it.  For digital libraries, my experience is a bit more limited to coursework, like INFO653 and the ipl assignments from other courses.  I am focusing on Digital Libraries because I like organizing information and enjoy working with computers.  I would like to do an internship with the ipl2 or another digital reference organization.
+				As for my technical level, I have a chemical engineering degree but I obtained that before the tech boom so it was a lot of slow calculations on slow computers.  When I worked at the green tech start-up, I was immersed in a lot of cool technologies.  I did not use all of them because my position was one of the less technical ones (production-related, not programming-related), but I did use wikis and command-line based file share programs.
+				As indicated in my subject line, my family and I live in the Netherlands.  My husband was transferred here for his job at the end of 2012.  We are having a great time living in another culture, and the Dutch are a fantastic people.  They are also fluent in English, which is a double-edged sword: it is great because it does not add to the stress of moving our family (including our infant) across the Pond; it is not great because it is very difficult to learn the language when everyone speaks to you in English after they hear your American accent :-)
+				Yes, I also have a new baby (our first), so that is also a lot of fun and a lot of work.  He is almost 5 months old.  To round out our family, we have one dog and one cat - both made the 9+ hour trip over from America without a hitch and seem to be acclimating nicely.
+			</self-introduction>
+			<personalInterest>Travel</personalInterest>
+			<personalInterest>Health &amp; Fitness</personalInterest>
+			<personalInterest>Relaxation</personalInterest>
+		</student>
+	</info657>

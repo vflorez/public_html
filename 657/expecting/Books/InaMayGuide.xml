@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../mobileDisplay.xsl"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+    <titleInfo><title>Ina May's guide to childbirth</title></titleInfo>
+    <titleInfo type="alternative"><title>Guide to childbirth</title></titleInfo>
+    <titleInfo type="alternative"><title>From the nation's leading midwife-- Ina May's guide to childbirth</title></titleInfo>
+    <name type="personal" usage="primary"><namePart>Gaskin, Ina May</namePart></name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">bibliography</genre>
+    <genre authority="rdacontent">text</genre>
+    <genre>Mobile website/application</genre>
+    <originInfo>
+        <place><placeTerm type="code" authority="marccountry">nyu</placeTerm></place>
+        <dateIssued encoding="marc">2012</dateIssued>
+        <dateIssued encoding="marc">2012</dateIssued>
+        <issuance>monographic</issuance>
+    </originInfo>
+    <originInfo displayLabel="publisher">
+        <place><placeTerm>New York :</placeTerm></place>
+        <publisher>Bantam Books Trade Paperbacks,</publisher>
+        <dateIssued>[2012?]</dateIssued>
+    </originInfo>
+    <language><languageTerm type="code" authority="iso639-2b">eng</languageTerm></language>
+    <physicalDescription>
+        <form authority="marcform">print</form>
+        <extent>xv, 348 pages : illustrations ; 23 cm</extent>
+        <form type="media" authority="rdamedia">unmediated</form>
+        <form type="carrier" authority="rdacarrier">volume</form>
+    </physicalDescription>
+    <note type="statement of responsibility" altRepGroup="00">Ina May Gaskin.</note>
+    <note>"Updated with new material"--Cover.</note>
+    <note type="bibliography">Includes bibliographical references and index.</note>
+    <subject authority="lcsh"><topic>Natural childbirth</topic></subject>
+    <classification authority="lcc">RG661 .G376 2012</classification>
+    <classification authority="ddc" edition="21">618.4/5</classification>
+    <location><url displayLabel="Worldcat mobile">http://worldcatmobile.org/?os=&amp;on=&amp;q=0553381156&amp;idx=kw&amp;sort=relevance</url></location>
+    <location><url displayLabel="Amazon">http://www.amazon.com/Ina-Mays-Guide-Childbirth-ebook/dp/B000S1LT1A/</url></location>
+    <location><url displayLabel="Sample text" usage="primary display">http://www.loc.gov/catdir/samples/random041/2002029901.html</url></location>
+    <location><url displayLabel="Publisher description">http://www.loc.gov/catdir/description/random043/2002029901.html</url></location>
+    <identifier type="isbn">9780553381153 (pbk.)</identifier>
+    <identifier type="lccn">2012464616</identifier>
+    <relatedItem>
+        <location><url displayLabel="Publisher description">http://www.loc.gov/catdir/description/random043/2002029901.html</url></location>
+    </relatedItem>
+    <recordInfo>
+        <descriptionStandard>rda</descriptionStandard>
+        <recordContentSource authority="marcorg">DLC</recordContentSource>
+        <recordCreationDate encoding="marc">130130</recordCreationDate>
+        <recordChangeDate encoding="iso8601">20130205153310.0</recordChangeDate>
+        <recordIdentifier>17607662</recordIdentifier>
+        <recordOrigin>Converted from MARCXML to MODS version 3.4 using MARC21slim2MODS3-4.xsl
+				(Revision 1.85 2013/03/07)</recordOrigin>
+        <languageOfCataloging>
+            <languageTerm type="code" authority="iso639-2b">eng</languageTerm></languageOfCataloging>
+    </recordInfo>
+</mods>

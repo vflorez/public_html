@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="info657">
+		<xs:annotation>
+			<xs:documentation>iSchool Course</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="courseTitle"/>
+
+				<xs:element name="student">
+					<xs:complexType>
+						<xs:sequence>
+
+							<xs:element name="name">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="firstName"/>
+										<xs:element name="lastName"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							
+							<xs:element name="location">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="city"/>
+										<xs:element name="state"/>
+										<xs:element name="country"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+	
+							<xs:element name="self-introduction"/>
+	
+							<xs:element name="personalInterest" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

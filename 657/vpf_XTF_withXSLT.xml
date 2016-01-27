@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vpf_DLSystem.xslt" ?>
+<DL_System xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://research.cis.drexel.edu/info657/XML/DLSystem.xsd">
+	<header>
+		<identifier>info657-XL-XTF</identifier>
+		<datestamp/>
+		<setSpec>Open Source DL</setSpec>
+	</header>
+	<metadata>
+		<title>eXtensible Text Framework (XTF)</title>
+		<creator>Martin Haye &amp; Kirk Hastings, California Digital Library</creator>
+		<subject>digital libraries</subject>
+		<subject>digital object repositories</subject>
+		<subject>Java</subject>
+		<subject>Lucene</subject>
+		<subject>open source software</subject>
+		<subject>Saxon</subject>
+		<subject>XSL</subject>
+		<description>eXtensible Text Framework (XTF) is a highly-customizable, yet easy to deploy, open source platform for building digital repositories containing heterogeneous digital objects.  It was developed by Martin Haye and Kirk Hastings at the California Digital Library (CDL).  It is currently in use by a variety of institutions around the world and is the backbone for most of the CDL’s digital collections.  The software includes full Unicode support and operates on SunOS, Linux, and Windows operating systems.  Its key features include customizable displays, advanced search functions, multilingual interface options, and the ability to handle large documents with ease.</description>
+		<date> 2004 -  </date>
+		<type>open source software</type>
+		<rights>Available for free under Apache Software License, BSD License, and Mozilla Public License 1.0 (MPL)</rights>
+		<identifier xlink:type="simple" xlink:href="http://xtf.cdlib.org/">http://xtf.cdlib.org/</identifier>
+	</metadata>
+	<about>
+		<Record-creator>Valerie Florez</Record-creator>
+		<record-creation-date>April 10, 2013</record-creation-date>
+		<record-url>http://www.pages.drexel.edu/~vpf23/657/vpf_XTF_withXSLT.xml</record-url>
+	</about>
+</DL_System>

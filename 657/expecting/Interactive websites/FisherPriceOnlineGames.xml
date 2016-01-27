@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../mobileDisplay.xsl"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+    <titleInfo>
+        <title>Online Learning Games - Fisher Price Online Games For Kids</title>
+    </titleInfo>
+    <name type="corporate">
+        <namePart>Fisher-Price</namePart>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <genre>Website</genre>
+    <genre>Mobile website/application</genre>
+    <originInfo>
+        <dateCaptured encoding="iso8601">20130601</dateCaptured>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b">eng</languageTerm>
+    </language>
+    <physicalDescription>
+        <internetMediaType>text/html</internetMediaType>
+        <internetMediaType>application/x-shockwave-flash</internetMediaType>
+    </physicalDescription>
+    <abstract>Encourage smiles and learning at the same time with Fisher-Price's online learning games. From infant to preschooler, our online games are fun for everyone. </abstract>
+    <subject>
+        <topic>Educational games</topic>
+    </subject>
+    <subject>
+        <topic>Internet games</topic>
+    </subject>
+    <location>
+        <url displayLabel="Active site (if available)">http://www.fisher-price.com/en_US/gamesandactivities/onlinegames/index.html</url>
+    </location>
+</mods>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../mobileDisplay.xsl"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+    <titleInfo>
+        <title>Babywinkel - De Babykraam -</title>
+        <subTitle>Baby winkel voor baby en peuter, zwangerschap, kraamcadeautjes en baby geboortelijsten.</subTitle>
+    </titleInfo>
+    <name type="corporate">
+        <namePart>Babywinkel - De Babykraam -</namePart>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>Website</genre>
+    <genre>Mobile website/application</genre>
+    <originInfo>
+        <dateCaptured point="start" encoding="iso8601">20130601</dateCaptured>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b">dut</languageTerm>
+    </language>
+    <physicalDescription>
+        <internetMediaType>text/html</internetMediaType>
+    </physicalDescription>
+    <abstract>Baby winkel in Achel voor zwangerschap en geboorte.
+        Bent u zwanger, zoekt u babyspullen of een kraamkadootje?
+        Uw babyzaak online de babykraam helpt! </abstract>
+    <subject>
+        <topic>Children's paraphernalia</topic>
+    </subject>
+    <subject>
+        <topic>Maternity clothes</topic>
+    </subject>
+    <subject>
+        <!-- Combined topic and genre because MODSPlugin cannot yet parse them out -->
+        <topic>Prenatal--Equipment and supplies</topic>
+    </subject>
+    <location>
+        <url displayLabel="Active site (if available)">http://www.debabykraam.nl/</url>
+    </location>
+</mods>

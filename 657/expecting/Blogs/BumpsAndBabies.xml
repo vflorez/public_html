@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../mobileDisplay.xsl"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+    <titleInfo>
+        <title>Bumps &amp; Babies - The Hague</title>
+    </titleInfo>
+    <name type="corporate">
+        <namePart>Bumps &amp; babies</namePart>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre>Mobile website/application</genre>
+    <genre>Website</genre>
+    <originInfo>
+        <dateCaptured encoding="iso8601">20130601</dateCaptured>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b">eng</languageTerm>
+    </language>
+    <physicalDescription>
+        <internetMediaType>text/html</internetMediaType>
+    </physicalDescription>
+    <abstract>Bumps and Babies is an English-speaking group for mums-to-be and the parents of newborns and young babies in The Hague. </abstract>
+    <subject>
+        <topic>Playgroups</topic>
+        <geographic>The Hague</geographic>
+        <geographic>Den Haag</geographic>
+    </subject>
+    <location>
+        <url displayLabel="Active site (if available)">http://bumpsandbabiesdenhaag.wordpress.com/</url>
+    </location>
+</mods>

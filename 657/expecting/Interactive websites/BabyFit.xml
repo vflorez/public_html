@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../mobileDisplay.xsl"?>
+
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" version="3.4">
+    <titleInfo>
+        <title>Pregnancy Nutrition &amp; Pregnancy Exercises at BabyFit.com</title>
+    </titleInfo>
+    <name type="corporate">
+        <namePart>SparkPeople, Inc.</namePart>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <typeOfResource>software, multimedia</typeOfResource>
+    <genre>Website</genre>
+    <originInfo>
+        <dateCaptured encoding="iso8601">20130601</dateCaptured>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b">eng</languageTerm>
+    </language>
+    <physicalDescription>
+        <internetMediaType>text/html</internetMediaType>
+    </physicalDescription>
+    <abstract>Get a free personalized pregnancy exercise and nutrition program from BabyFit.com. </abstract>
+    <subject>
+        <!-- Combined topic and genre because MODSPlugin cannot yet parse them out -->
+        <topic>Pregnancy--Nutritional aspects</topic>
+    </subject>
+    <subject>
+        <!-- Combined topic and genre because MODSPlugin cannot yet parse them out -->
+        <topic>Pregnancy--Exercise</topic>
+    </subject>
+    <location>
+        <url displayLabel="Active site (if available)">http://babyfit.sparkpeople.com/default.asp</url>
+    </location>
+</mods>
