@@ -1,0 +1,13 @@
+﻿Revert "Updating code for favicon"
+
+This reverts commit 941235f1a20a85aacc7345863910d288c7600975.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch gh-pages
+# Your branch is up-to-date with 'origin/gh-pages'.
+#
+# Changes to be committed:
+#	modified:   index.html
+#
+
