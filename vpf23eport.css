@@ -39,8 +39,7 @@ table {
 	border-style: solid;
 	border-width: 0px 0px 10px 10px
 	*/
-	}
-#philosophy, #work_product, #contact_details, #countries, #resume_summary, #site_credit_list, #site_map_list {	text-align: left	}#school_samples {	line-height: 2em	}#gallery {	margin: auto;	max-width: 80%;	overflow: auto	}#site_map_outer {	line-height: 2em;	font-size: 1.2em	}	
+	}#philosophy, #work_product, #contact_details, #countries, #resume_summary, #site_credit_list, #site_map_list, #digital_libraries {	text-align: left	}#school_samples, #libraries_list {	line-height: 2em	}#gallery {	margin: auto;	max-width: 80%;	overflow: auto	}#site_map_outer {	line-height: 2em;	font-size: 1.2em	}	
 #footer_table td {
 	white-space: nowrap
 	}
