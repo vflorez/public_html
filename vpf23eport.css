@@ -1,103 +1,56 @@
-		body 
-{
-			background-color: #FFFFCC;
-			text-align: center;
-			overflow: auto;
-			font-family: "Trebuchet MS", Trebuchet, Helvetica, sans-serif
+body {
+	background-color: #FFFFDE;
+	text-align: center;
+	overflow: auto;
+	font-family: "Trebuchet MS", Trebuchet, Helvetica, sans-serif		
+	}
+
+a:link {
+	color: #000000
+	}
+
+a:visited {
+	color: #777788
+	}
 		
-}
+a:hover {
+	color: #4444CC
+	}
 
-		a:link {
-			color: #000000
-		}
+p {
+	margin-bottom: 1.2em
+	}
 
-		a:visited {
-			color: #777788
-		}
-		
-		a:hover {
-			color: #4444CC
-		}
+caption {
+	font-size: 0.8em
+	}
 
-		p {
-			margin-bottom: 1.2em
-		}
+table {			
+	margin: auto;
+	width: 95%;
+	font-weight: normal;
+	text-align: center
+	}#header h1 {	font-size: 1.8em;	vertical-align: middle	}		#logo {	float: left;	width: 20%;	padding: 1px;	margin-left: auto	}		#header_text {	font-size: 2em;	float: left;	min-width: 50%;	padding: 1px;	margin-right: 1%;	margin-left: 1%	}		#header_break {	clear: both;	padding: 1px	}#wrapper {	clear: both;	border: 0px solid;	border-collapse: collapse;	width: 95%;	margin-left: auto;	margin-right: auto	}		
+#inner_body {
+	width: 75%;
+	padding-left: 10px;
+	/* Future option for border around part of the main content
+	border-color: #003399;
+	border-style: solid;
+	border-width: 0px 0px 10px 10px
+	*/
+	}
+#philosophy, #work_product, #contact_details, #countries, #resume_summary, #site_credit_list, #site_map_list {	text-align: left	}#school_samples {	line-height: 2em	}#gallery {	margin: auto;	max-width: 80%;	overflow: auto	}#site_map_outer {	line-height: 2em;	font-size: 1.2em	}	
+#footer_table td {
+	white-space: nowrap
+	}
 
-
-
-
-		h1 {
-			font-size: 1.5em
-		}
-		
-		caption {
-			font-size: 0.8em
-		}
-
-		#wrapper {
-			border: 0px solid;
-			border-collapse: collapse;
-			width: 95%;
-			margin-left: auto;
-			margin-right: auto
-		}
-
-		table 
-{
-			
-margin: auto;
-
-			width: 95%;
-			font-weight: normal;
-			
-text-align: center
-		
-}
-
-		#page_header {
-			background-image: url('images/eport_header.jpg');
-			background-color: #000000;
-			margin-left: auto;
-			margin-right: auto;
-			width: 75%;
-			padding-right: 10px
-
-/* Future option for border around part of the main content
-			border-color: #003399;
-			border-style: solid;
-			border-width: 10px 0px 0px 10px
-*/
-
-		}
-
-		#left_side_wrapper {
-			vertical-align: top;
-		}
-
-		#inner_body {
-			width: 75%;
-			padding-left: 10px;
-
-/* Future option for border around part of the main content
-			border-color: #003399;
-			border-style: solid;
-			border-width: 0px 0px 10px 10px
-*/
-
-		}
-
-		#footer_table td {
-			white-space: nowrap
-		}
-
-		#footer {
-			font-size: 0.85em
-
-/* Other footer approaches
-			position: absolute;
-			bottom: 0;
-			width: 70%;
-			height: 3em
-*/
-
-		}
+#footer {
+	font-size: 0.85em
+	/* Other footer approaches
+	position: absolute;
+	bottom: 0;
+	width: 70%;
+	height: 3em
+	*/
+	}
